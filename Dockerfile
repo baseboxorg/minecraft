@@ -1,9 +1,9 @@
-# Minecraft 1.9.2 Dockerfile - Example with notes
+# Minecraft 1.9.4 Dockerfile
 
 
 # Use the offical Debian Docker image with a specified version tag, Wheezy, so not all
 # versions of Debian images are downloaded.
-FROM debian:jessie
+FROM debian:jessie-backports
 
 
 # Use APT (Advanced Packaging Tool) built in the Linux distro to download Java, a dependency
